@@ -12,6 +12,7 @@ const styles = {
     minHeight: "1px",
     paddingRight: "15px",
     paddingLeft: "15px",
+    marginTop: "25px",
     flexBasis: "auto"
   }
 };

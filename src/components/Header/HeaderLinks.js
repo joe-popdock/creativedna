@@ -45,10 +45,10 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/components-page" className={classes.dropdownLink}>
+            <Link to="/gsasidekicks-page" className={classes.dropdownLink}>
               GSA Sidekicks
             </Link>,
-            <Link to="/profile-page" className={classes.dropdownLink}>
+            <Link to="/stingsoccer-page" className={classes.dropdownLink}>
               Sting Soccer
             </Link>,
             <Link to="/stonypoint-page" className={classes.dropdownLink}>
@@ -58,14 +58,16 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-      <Link to="/profile-page" style={{color: "#FFFFFF"}}>
+      
         <Button
           color="transparent"
           className={classes.navLink}
         >
-            <Portrait className={classes.icons} /> About Me
+            <Portrait className={classes.icons} />
+            <Link to="/profile-page" className={classes.listItem}>
+                About Me
+        </Link>
         </Button>
-      </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
