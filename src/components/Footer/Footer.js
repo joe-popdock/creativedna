@@ -7,7 +7,8 @@ import classNames from "classnames";
 // material-ui core components
 import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+// react components for routing our app without refresh
+import { Link } from "react-router-dom";
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 // sections for this page
@@ -41,12 +42,9 @@ export default function Footer(props) {
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/profile-page"
-                className={classes.block}
-              >
-                About me
-              </a>
+              <Link to="/profile-page" className={classes.block}>
+                About Me
+            </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
                 <DonateModal />
@@ -58,7 +56,6 @@ export default function Footer(props) {
               <a
                 href="/"
                 className={aClasses}
-                target="_blank"
               >
                 Creative DNA</a>
             </ListItem>

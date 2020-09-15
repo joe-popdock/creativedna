@@ -28,11 +28,13 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
           color="transparent"
           className={classes.navLink}
         >
-          <Home className={classes.icons} /> Home
+          <Home className={classes.icons} />
+          <Link to="/" className={classes.listItem}>
+            Home
+          </Link>
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -66,7 +68,7 @@ export default function HeaderLinks(props) {
             <Portrait className={classes.icons} />
             <Link to="/profile-page" className={classes.listItem}>
                 About Me
-        </Link>
+            </Link>
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
