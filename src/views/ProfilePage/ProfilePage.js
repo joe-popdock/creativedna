@@ -26,9 +26,9 @@ import family4 from "assets/img/family/family4.jpg";
 import family5 from "assets/img/family/family5.jpg";
 import work1 from "assets/img/work/work1.jpg";
 import work2 from "assets/img/work/work2.jpg";
-import work3 from "assets/img/family/cynthia-del-rio.jpg";
-import work4 from "assets/img/family/mariya-georgieva.jpg";
-import work5 from "assets/img/family/clem-onojegaw.jpg";
+import work3 from "assets/img/work/work3.jpg";
+import work4 from "assets/img/work/work4.jpg";
+import work5 from "assets/img/work/work5.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -170,7 +170,7 @@ export default function ProfilePage(props) {
                             />
                             <img
                               alt="..."
-                              src={studio3}
+                              src={work5}
                               className={navImageClasses}
                             />
                           </GridItem>
