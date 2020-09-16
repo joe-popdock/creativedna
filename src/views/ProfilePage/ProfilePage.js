@@ -21,7 +21,6 @@ import profile from "assets/img/creative_dna_design_sphere.png";
 
 import family1 from "assets/img/family/family1.jpg";
 import family2 from "assets/img/family/family2.jpg";
-import studio3 from "assets/img/family/studio-3.jpg";
 import family4 from "assets/img/family/family4.jpg";
 import family5 from "assets/img/family/family5.jpg";
 import work1 from "assets/img/work/work1.jpg";
