@@ -6,9 +6,9 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
-//import GridItem from "components/Grid/GridItem.js";
+import GridItem from "components/Grid/GridItem.js";
 
-//import image from "assets/img/stingsoccer/pic-1.jpg";
+import image from "assets/img/stonypoint/stp_track&field.jpg";
 //import image2 from "assets/img/stingsoccer/pic-2.jpg";
 //import image3 from "assets/img/stingsoccer/pic-3.jpg";
 //import image4 from "assets/img/stingsoccer/pic-4.jpg";
@@ -34,8 +34,18 @@ export default function SectionTypography() {
           </div>
           <br />
           <GridContainer>
-
-
+            <GridItem xs={12} sm={2}>
+              <h7>2019-2020 Track & Field</h7>
+                <h6>All Albums</h6>
+              <a href="https://www.amazon.com/clouddrive/share/3nBydRti026lDnwaPo0WqcoBy0HDByYMOi2iwCrY9NF"
+                target="_blank" rel="noopener noreferrer">
+              <img
+                src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              />
+              </a>
+            </GridItem>
           </GridContainer>
           <GridContainer />
         </div>

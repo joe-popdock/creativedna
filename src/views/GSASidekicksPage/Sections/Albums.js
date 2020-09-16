@@ -6,9 +6,9 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
-//import GridItem from "components/Grid/GridItem.js";
+import GridItem from "components/Grid/GridItem.js";
 
-//import image from "assets/img/stingsoccer/pic-1.jpg";
+import image from "assets/img/sidekicks/sidekicks_shield.jpg";
 //import image2 from "assets/img/stingsoccer/pic-2.jpg";
 //import image3 from "assets/img/stingsoccer/pic-3.jpg";
 //import image4 from "assets/img/stingsoccer/pic-4.jpg";
@@ -34,7 +34,30 @@ export default function SectionTypography() {
           </div>
           <br />
           <GridContainer>
-
+            <GridItem xs={12} sm={2}>
+              <h7>GSA Sidekicks Spring 2020</h7>
+                <h6>All Albums</h6>
+              <a href="https://www.amazon.com/clouddrive/share/MHuZlFPkRBYVTqsQ4wh7AYpVL33kgW4AJZbzNXUTVf3"
+                target="_blank" rel="noopener noreferrer">
+              <img
+                src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              />
+              </a>
+            </GridItem>
+            <GridItem xs={12} sm={2}>
+              <h7>GSA Sidekicks Fall 2019</h7>
+                <h6>All Albums</h6>
+              <a href="https://www.amazon.com/clouddrive/share/D0F7TG48rRuocxs5hhQyzLQGVf3BshVLsYqeeSY16dc"
+                target="_blank" rel="noopener noreferrer">
+              <img
+                src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              />
+              </a>
+            </GridItem>
           </GridContainer>
           <GridContainer />
         </div>
