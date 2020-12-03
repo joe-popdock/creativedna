@@ -9,7 +9,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
 import image from "assets/img/stonypoint/stp_track&field.jpg";
-//import image2 from "assets/img/stingsoccer/pic-2.jpg";
+import xc from "assets/img/stonypoint/xc.jpg";
 //import image3 from "assets/img/stingsoccer/pic-3.jpg";
 //import image4 from "assets/img/stingsoccer/pic-4.jpg";
 //import image5 from "assets/img/stingsoccer/pic-5.jpg";
@@ -41,6 +41,18 @@ export default function SectionTypography() {
                 target="_blank" rel="noopener noreferrer">
               <img
                 src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              />
+              </a>
+            </GridItem>
+            <GridItem xs={12} sm={2}>
+              <h7>2020-2021 Cross Country</h7>
+                <h6>All Albums</h6>
+              <a href="https://www.amazon.com/clouddrive/share/3XWN9jFHIhRlYrP3oR63RXeyl3yGzI7G6CNqhHCgl5z"
+                target="_blank" rel="noopener noreferrer">
+              <img
+                src={xc}
                 alt="..."
                 className={classes.imgRounded + " " + classes.imgFluid}
               />

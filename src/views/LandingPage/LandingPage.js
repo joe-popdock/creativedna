@@ -21,6 +21,7 @@ import logo from "assets/img/creative_dna_design_logo_500px_white.png";
 // Sections for this page
 import SectionCarousel from "./Sections/SectionCarousel.js";
 import WorkSection from "./Sections/WorkSection.js";
+import TwitterFeed from "./Sections/TwitterFeed.js";
 
 const dashboardRoutes = [];
 
@@ -67,6 +68,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <SectionCarousel />
           <WorkSection />
+          <TwitterFeed />
         </div>
       </div>
       <Footer />

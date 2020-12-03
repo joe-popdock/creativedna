@@ -50,6 +50,9 @@ export default function HeaderLinks(props) {
             <Link to="/gsasidekicks-page" className={classes.dropdownLink}>
               GSA Sidekicks
             </Link>,
+            <Link to="/pearsonranch-page" className={classes.dropdownLink}>
+              Pearson Ranch Middle School
+            </Link>,
             <Link to="/stingsoccer-page" className={classes.dropdownLink}>
               Sting Soccer
             </Link>,
@@ -119,6 +122,23 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-instagram"} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="youtube-tooltip"
+          title="Follow us on youtube"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.youtube.com/channel/UCmtmUsfeJonr69yYnmHPJsA"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-youtube"} />
           </Button>
         </Tooltip>
       </ListItem>
